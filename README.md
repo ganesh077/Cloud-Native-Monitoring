@@ -16,7 +16,6 @@ This project is a Flask web application that monitors the CPU and memory utiliza
 1. Build the Docker image:
      docker build -t my-flask-app .
 2. Push the Docker image to your Amazon ECR using boto3 python library:
-     docker push /my-flask-app
    
 <img src="ecr.png" width=650 height=350>
 
