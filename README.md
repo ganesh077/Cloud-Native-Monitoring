@@ -17,8 +17,13 @@ This project is a Flask web application that monitors the CPU and memory utiliza
      docker build -t my-flask-app .
 2. Push the Docker image to your Amazon ECR using boto3 python library:
      docker push /my-flask-app
+   
+<img src="ecr.png" width=650 height=350>
+
 3. Run the `eks.py` script to create the Kubernetes Deployment and Service:
      python3 eks.py
+   
+<img src="eks.png" width=650 height=350>
 
 
 ## Tools Used
@@ -28,6 +33,8 @@ This project is a Flask web application that monitors the CPU and memory utiliza
 - Amazon ECR: A fully-managed Docker container registry.
 - Amazon EKS: A managed service that makes it easy to run Kubernetes on AWS.
 - Kubernetes Python client: A Python client library for Kubernetes.
+
+<img src="screen.png" width=850 height=450>
 
 
 ## Tools Used
